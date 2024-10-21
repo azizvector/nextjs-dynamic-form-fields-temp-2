@@ -8,6 +8,11 @@ const config = {
 		"./src/app/**/*.{js,ts,jsx,tsx,mdx}",
 	],
 	prefix: "",
+	safelist: [
+		{
+			pattern: /col-span-(\d+)/,
+		},
+	],
 	theme: {
 		container: {
 			center: true,
